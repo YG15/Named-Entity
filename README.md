@@ -4,17 +4,28 @@
 __Script Details_:_
 - Name :        NER_Tagger (Name Entity Recognition Tagger)
 - Target:      Entity identification in text (including non-regular cases) and and tagging (in one of the following tags):
- {PERSON}- A first or last name (sometimes also an affix)
- {CARDINAL} - Quantity/Number
- {ORG} - Organization
- {LOCATION} - location
- {DATE} - Date
- {UNIDENTIFIED_NAME} - A name- Usually last name that wasn't identified by the list
- {TIME} - Time
- {PHONE} - Phone number
- {MAIL} - E-mail
- {FAC} - Facility
- {MONEY} - Money
+     {PERSON}- A first or last name (sometimes also an affix)
+
+     {CARDINAL} - Quantity/Number
+
+     {ORG} - Organization
+
+     {LOCATION} - location
+
+     {DATE} - Date
+
+     {UNIDENTIFIED_NAME} - A name- Usually last name that wasn't identified by the list
+
+     {TIME} - Time
+
+     {PHONE} - Phone number
+
+     {MAIL} - E-mail
+
+     {FAC} - Facility
+
+     {MONEY} - Money
+
 - Arguments :   
     1. A plain text
     2. A name list
