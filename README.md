@@ -46,10 +46,10 @@ The code contain the following functiond:
 3. `spacy_entity_extractor` - Name entity tagger using SpaCy package. recieves a text, return a tagged text.
 4. `nltk_entity_extractor` - Name entity tagger using nltk package. recieves a text, return a tagged text.
 5. `person_names_list_entity_extractor` - Name entity tagger using an external name list. recieves a text and a name list, return a tagged text.
-6. `list_entity_exclude_include` - Name entity tagger using an external name list tha tag the any words appearing in the list, or tag all Out Of Vocabulary words (words which do not appear in a list). recieves a text, a name list, a boolean prameter "exclude=True" and a tag type; "entity".  return a tagged text.
+6. `list_entity_exclude_include` - Name entity tagger using an external name list tha tag the any words appearing in the list, or tag all Out Of Vocabulary words (words which do not appear in a list). recieves a text, a name list, a boolean prameter "exclude=True" and a tag type; "entity".  return an tagged text.
 7. `remove_repeated_ent` - Remove double tagging (in cast multiple NET are used). recieves a tagged text, return a tagged text.
 8. `correct_point_tag_order` - Reorder a tag that came after a "." or "," so it will appear before it. recieves a tagged text, return a tagged text.
-9. `multi_NER_tagger` - Combinning all above functions. recieves a  text, return a edited tagged text.
+9. `multi_NER_tagger` - Combinning all above functions. recieves a  text, return an edited tagged text.
 
 Than the main  script is run for the test:
 1. Upload the data.
